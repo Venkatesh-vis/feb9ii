@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        .heading>th{
+            background-color: aqua;
+        }
+        tr>th{
+            background-color: blueviolet;
+        }
+        .items>td{
+            background-color: blue;
+        }
+        .items1>td{
+            background-color: gold;
+        }
+        .items2>td{
+            background-color: brown;
+        }
+        .items3>td{
+            background-color: magenta;
+        }
+        .items4>td{
+            background-color: yellowgreen;
+        }
+        .items5>td{
+            background-color: tomato;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width: 100%;">
+        <tr class="heading">
+            <th colspan="4">ABCD SHOP</th>
+        </tr>
+        <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price/Unit</th>
+            <th>Total</th>
+        </tr>
+        <tr class="items">
+            <td>Sugar</td>
+            <td>5kg</td>
+            <td>50</td>
+            <td>250</td>
+        </tr>
+        <tr class="items1">
+            <td>Oil</td>
+            <td>4kg</td>
+            <td>200</td>
+            <td>800</td>
+        </tr>
+        <tr class="items2">
+            <td>Soap</td>
+            <td>5</td>
+            <td>4</td>
+            <td>20</td>
+        </tr>
+        <tr class="items3">
+            <td colspan="3">Sub Total</td>
+            <td>1070</td>
+        </tr>
+        <tr class="items4">
+            <td colspan="2">tax</td>
+            <td>5%</td>
+            <td>41</td>
+        </tr>
+        <tr class="items5">
+            <td colspan="3">Total Bill</td>
+            <td><b>1091</b></td>
+        </tr>
+    </table>
+</body>
+
+</html>
